@@ -1,11 +1,101 @@
 DisputeID,CustomerName,DisputeText
-1,Arjun Mehta,"My debit card transaction failed but the amount was debited. It's been 5 days and I haven’t received a refund."
-2,Sneha Rao,"I was charged a late fee even though I paid my loan EMI on time through the mobile app."
+1,Arjun Mehta,My debit card transaction failed but the amount was debited. It's been 5 days and I haven’t received a refund.
+2,Sneha Rao,I was charged a late fee even though I paid my loan EMI on time through the mobile app.
 3,Rahul Iyer,"The bank froze my account without prior notice, saying my KYC is incomplete. I submitted documents last month."
-4,Priyanka S,"I suspect fraudulent activity on my account. There are two transactions I did not make yesterday."
-5,Manish Verma,"UPI transaction failed but the receiver says they got the money. It’s showing deducted on my side too."
-6,Tanya Joseph,"I applied for a credit card three weeks ago. There has been no update or communication from the bank."
-7,Devika Pillai,"The branch denied my cheque deposit saying the signature doesn’t match. I’ve used the same signature for years."
+4,Priyanka S,I suspect fraudulent activity on my account. There are two transactions I did not make yesterday.
+5,Manish Verma,UPI transaction failed but the receiver says they got the money. It’s showing deducted on my side too.
+6,Tanya Joseph,I applied for a credit card three weeks ago. There has been no update or communication from the bank.
+7,Devika Pillai,The branch denied my cheque deposit saying the signature doesn’t match. I’ve used the same signature for years.
 8,Imran Sheikh,"Every time I try to log in to my online banking, it says my session is expired."
 9,Neeraj Jain,"I want to close my fixed deposit prematurely, but the mobile app keeps giving an error."
-10,Aarti Kulkarni,"I received a foreign exchange charge that I did not authorize. Please explain the fee applied."
+10,Aarti Kulkarni,I received a foreign exchange charge that I did not authorize. Please explain the fee applied.
+11,Aarav Sharma,Disputed transaction marked as resolved without my consent.
+12,Anaya Gupta,Auto-debit triggered even after I cancelled the mandate.
+13,Vivaan Patel,Debit card blocked without notice during an emergency.
+14,Anaya Gupta,Received OTP for a transaction I didn’t initiate.
+15,Vivaan Patel,App crashes when trying to transfer funds.
+16,Tara Joshi,Bank branch refused to process my DD request.
+17,Meera Iqbal,App crashes when trying to transfer funds.
+18,Kabir Menon,Received SMS of deduction but no purchase was made.
+19,Vivaan Patel,KYC update failed multiple times despite correct documents.
+20,Arjun Kapoor,Bank branch refused to process my DD request.
+21,Meera Iqbal,ATM dispensed less cash than requested.
+22,Arjun Kapoor,Incorrect interest rate applied to my fixed deposit.
+23,Vivaan Patel,Disputed transaction marked as resolved without my consent.
+24,Rohan Das,App crashes when trying to transfer funds.
+25,Anaya Gupta,Debit card blocked without notice during an emergency.
+26,Kabir Menon,Duplicate EMI deducted this month.
+27,Rohan Das,Bank branch refused to process my DD request.
+28,Meera Iqbal,Loan prepayment not reflected in account statement.
+29,Meera Iqbal,Incorrect beneficiary account credited in NEFT transfer.
+30,Kabir Menon,Salary credit is delayed this month.
+31,Rohan Das,My cheque book request is pending for over a month.
+32,Aarav Sharma,Disputed transaction marked as resolved without my consent.
+33,Arjun Kapoor,Auto-debit triggered even after I cancelled the mandate.
+34,Aarav Sharma,Salary credit is delayed this month.
+35,Kabir Menon,KYC update failed multiple times despite correct documents.
+36,Aarav Sharma,Salary credit is delayed this month.
+37,Diya Nair,Auto-debit triggered even after I cancelled the mandate.
+38,Anaya Gupta,ATM dispensed less cash than requested.
+39,Meera Iqbal,Duplicate EMI deducted this month.
+40,Meera Iqbal,Received SMS of deduction but no purchase was made.
+41,Meera Iqbal,"Two UPI transactions failed consecutively, but money was debited."
+42,Meera Iqbal,ATM dispensed less cash than requested.
+43,Diya Nair,Incorrect interest rate applied to my fixed deposit.
+44,Vivaan Patel,Received OTP for a transaction I didn’t initiate.
+45,Anaya Gupta,Received multiple spam calls claiming to be from bank support.
+46,Anaya Gupta,KYC update failed multiple times despite correct documents.
+47,Tara Joshi,Loan prepayment not reflected in account statement.
+48,Kabir Menon,Salary credit is delayed this month.
+49,Kavya Singh,Loan prepayment not reflected in account statement.
+50,Anaya Gupta,Received multiple spam calls claiming to be from bank support.
+51,Anaya Gupta,Received OTP for a transaction I didn’t initiate.
+52,Vivaan Patel,KYC update failed multiple times despite correct documents.
+53,Aarav Sharma,Salary credit is delayed this month.
+54,Kabir Menon,KYC update failed multiple times despite correct documents.
+55,Kavya Singh,Received OTP for a transaction I didn’t initiate.
+56,Meera Iqbal,Duplicate EMI deducted this month.
+57,Diya Nair,Auto-debit triggered even after I cancelled the mandate.
+58,Kabir Menon,App crashes when trying to transfer funds.
+59,Kabir Menon,Loan prepayment not reflected in account statement.
+60,Diya Nair,App crashes when trying to transfer funds.
+61,Kabir Menon,Old address still showing despite update confirmation.
+62,Arjun Kapoor,"Two UPI transactions failed consecutively, but money was debited."
+63,Kabir Menon,Incorrect beneficiary account credited in NEFT transfer.
+64,Vivaan Patel,Bank branch refused to process my DD request.
+65,Vivaan Patel,KYC update failed multiple times despite correct documents.
+66,Kavya Singh,My cheque book request is pending for over a month.
+67,Aarav Sharma,Received OTP for a transaction I didn’t initiate.
+68,Vivaan Patel,ATM dispensed less cash than requested.
+69,Anaya Gupta,Auto-debit triggered even after I cancelled the mandate.
+70,Anaya Gupta,Unauthorized charge on my credit card from a foreign location.
+71,Tara Joshi,Received SMS of deduction but no purchase was made.
+72,Diya Nair,Debit card blocked without notice during an emergency.
+73,Rohan Das,Received SMS of deduction but no purchase was made.
+74,Diya Nair,Received multiple spam calls claiming to be from bank support.
+75,Vivaan Patel,Incorrect interest rate applied to my fixed deposit.
+76,Vivaan Patel,Loan prepayment not reflected in account statement.
+77,Anaya Gupta,Duplicate EMI deducted this month.
+78,Aarav Sharma,Received multiple spam calls claiming to be from bank support.
+79,Diya Nair,Incorrect interest rate applied to my fixed deposit.
+80,Kabir Menon,Bank branch refused to process my DD request.
+81,Diya Nair,Loan prepayment not reflected in account statement.
+82,Rohan Das,Unable to link Aadhaar to my account online.
+83,Diya Nair,Incorrect interest rate applied to my fixed deposit.
+84,Arjun Kapoor,My cheque book request is pending for over a month.
+85,Kabir Menon,ATM dispensed less cash than requested.
+86,Vivaan Patel,Unauthorized charge on my credit card from a foreign location.
+87,Anaya Gupta,Old address still showing despite update confirmation.
+88,Rohan Das,Salary credit is delayed this month.
+89,Tara Joshi,Old address still showing despite update confirmation.
+90,Aarav Sharma,Bank branch refused to process my DD request.
+91,Aarav Sharma,Old address still showing despite update confirmation.
+92,Meera Iqbal,Auto-debit triggered even after I cancelled the mandate.
+93,Tara Joshi,Duplicate EMI deducted this month.
+94,Tara Joshi,Bank branch refused to process my DD request.
+95,Diya Nair,"Two UPI transactions failed consecutively, but money was debited."
+96,Arjun Kapoor,ATM dispensed less cash than requested.
+97,Kavya Singh,Duplicate EMI deducted this month.
+98,Meera Iqbal,Incorrect beneficiary account credited in NEFT transfer.
+99,Kabir Menon,Debit card blocked without notice during an emergency.
+100,Meera Iqbal,"Two UPI transactions failed consecutively, but money was debited."
