@@ -1,6 +1,6 @@
 # prompts.py
-
-DISPUTE_PROMPT = """
+def build_prompt(dispute_text):
+    return f"""
 Given the following customer dispute, perform three tasks:
 
 1. Classify the issue based on type.
@@ -13,9 +13,7 @@ Suggested Resolution: <steps>
 Internal Summary: <short summary>
 
 Dispute Text:
-"""
 {dispute_text}
-"""
 
 Common dispute categories you can consider:
 - Payment Delay
@@ -28,3 +26,4 @@ Common dispute categories you can consider:
 - Fee/Charge Dispute
 - UPI/NEFT/IMPS Failure
 - Others
+"""

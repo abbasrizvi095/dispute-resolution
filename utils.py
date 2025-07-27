@@ -1,23 +1,26 @@
 # utils.py
 import openai
-from prompts import DISPUTE_PROMPT
+from prompts import build_prompt
+
+client = openai.OpenAI()  # Uses API key from .streamlit/secrets.toml
 
 def classify_dispute(dispute_text):
-    response = openai.ChatCompletion.create(
-        model="gpt-4",
-        messages=[
-            {"role": "system", "content": "You are a helpful banking dispute assistant."},
-            {"role": "user", "content": DISPUTE_PROMPT.format(dispute_text=dispute_text)}
-        ],
-        temperature=0.3
-    )
+    prompt = build_prompt(dispute_text)
 
-    result = response.choices[0].message['content']
+    response = client.chat.completions.create(
+    model="gpt-3.5-turbo",  # ✅ Replace "gpt-4" with this
+    messages=[{"role": "user", "content": prompt}],
+    temperature=0.4,
+)
+
+
+    output = response.choices[0].message.content.strip()
+
     try:
-        parts = result.split("\n")
-        classification = parts[0].replace("Classification:", "").strip()
-        resolution = parts[1].replace("Suggested Resolution:", "").strip()
-        summary = parts[2].replace("Internal Summary:", "").strip()
+        lines = output.strip().split("\n")
+        classification = lines[0].split(":", 1)[1].strip()
+        resolution = lines[1].split(":", 1)[1].strip()
+        summary = lines[2].split(":", 1)[1].strip()
         return classification, resolution, summary
-    except Exception:
-        return "Unknown", "Please review manually.", result
+    except:
+        return "Could not parse", "-", output
