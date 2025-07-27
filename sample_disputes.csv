@@ -1,0 +1,11 @@
+DisputeID,CustomerName,DisputeText
+1,Arjun Mehta,"My debit card transaction failed but the amount was debited. It's been 5 days and I haven’t received a refund."
+2,Sneha Rao,"I was charged a late fee even though I paid my loan EMI on time through the mobile app."
+3,Rahul Iyer,"The bank froze my account without prior notice, saying my KYC is incomplete. I submitted documents last month."
+4,Priyanka S,"I suspect fraudulent activity on my account. There are two transactions I did not make yesterday."
+5,Manish Verma,"UPI transaction failed but the receiver says they got the money. It’s showing deducted on my side too."
+6,Tanya Joseph,"I applied for a credit card three weeks ago. There has been no update or communication from the bank."
+7,Devika Pillai,"The branch denied my cheque deposit saying the signature doesn’t match. I’ve used the same signature for years."
+8,Imran Sheikh,"Every time I try to log in to my online banking, it says my session is expired."
+9,Neeraj Jain,"I want to close my fixed deposit prematurely, but the mobile app keeps giving an error."
+10,Aarti Kulkarni,"I received a foreign exchange charge that I did not authorize. Please explain the fee applied."
