@@ -1,4 +1,4 @@
-# 📈 FinGPT Dispute Assistant
+# 📈 Online Dispute Resolution Assistant
 
 A lightweight AI-powered tool that classifies customer banking disputes, suggests resolution steps, and generates internal summaries using GPT-4.
 
